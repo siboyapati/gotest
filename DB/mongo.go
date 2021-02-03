@@ -14,7 +14,7 @@ import (
 )
 
 const (
-	CONNECTIONSTRING = ""
+	CONNECTIONSTRING = "mongodb+srv://siva:siva@clusterboya.prmmd.mongodb.net/<dbname>?retryWrites=true&w=majority"
 	DB     = "sample_airbnb"
 	ISSUES = "col_issues"
 	ARKDB   = "etf_db"
