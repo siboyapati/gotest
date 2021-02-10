@@ -98,6 +98,9 @@ func parseETF() {
 	mSync.Add(1)
 	go ETF.DefianceETFs(&mSync)
 
+	mSync.Add(1)
+	go ETF.SpxzETF(&mSync)
+
 	mSync.Wait()
 
 	//allETFS := getAllETFS()
